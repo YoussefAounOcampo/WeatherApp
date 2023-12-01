@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="weather-app">
+      <div class="weather-app-container">
+        <h3 class="brand">El Tiempo</h3>
+        <div>
+          <h1 class="temp">16&#176;</h1>
+          <div class="city-time">
+            <h1 class="name">Madrid</h1>
+            <small>
+              <span class="time">06:09</span>
+              -
+              <span class="date"> Lunes 1 Diciembre </span>
+            </small>
+          </div>
+          <div class="weather">
+            <img
+              src="icons/day/113.png"
+              class="icon"
+              alt="icon"
+              width="50"
+              height="50"
+            />
+            <span class="condition">Nuboso</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <form id="locationInput">
+          <input type="text" class="search" placeholder="Buscar Localización" />
+          <button type="submit" class="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+
+        <ul class="cities">
+          <li class="city">New York</li>
+          <li class="city">Paris</li>
+          <li class="city">Manila</li>
+          <li class="city">Prague</li>
+        </ul>
+
+        <ul>
+          <h4>Detalles</h4>
+          <li>
+            <span>Nuboso</span>
+            <span class="cloud">89%</span>
+          </li>
+          <li>
+            <span>Humedad</span>
+            <span class="humidity">19%</span>
+          </li>
+          <li>
+            <span>Viento</span>
+            <span class="wind">8Km/h</span>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+
+  </body>
+</html>
